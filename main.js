@@ -72,3 +72,8 @@ function performPostRequest(e) {
   
   e.preventDefault();
 }
+
+function clearOutput(element) {
+  var resultElement = document.getElementById(element);
+  resultElement.innerHTML = '';
+}

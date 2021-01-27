@@ -22,7 +22,7 @@
         <div class="panel-heading">GET REQUEST</div>
         <div class="panel-body">
           <button class="btn btn-primary" onclick="performGetRequest1()">Get Todos</button>
-          <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
+          <button class="btn btn-warning" onclick="clearOutput('getResult1')">Clear</button>
           <div class="panel-body" id="getResult1"></div>
         </div>
       </div>
@@ -32,7 +32,7 @@
         <div class="panel-body">
           <input type="text" class="form-control" id="todoId" placeholder="Todo Id..."><br/>
           <button class="btn btn-primary" onclick="performGetRequest2()">Get Todos</button>
-          <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
+          <button class="btn btn-warning" onclick="clearOutput('getResult2')">Clear</button>
           <div class="panel-body" id="getResult2"></div>
         </div>
       </div>
@@ -47,7 +47,7 @@
             <button type="submit" class="btn btn-primary">Send</button>
           </form>
           <br/>
-          <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
+          <button class="btn btn-warning" onclick="clearOutput('postResult')">Clear</button>
           <div class="panel-body" id="postResult"></div>
         </div>
       </div>
